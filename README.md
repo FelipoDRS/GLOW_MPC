@@ -8,7 +8,7 @@ MPC model is MPC_model.m
 
 *_der files only separate the derivatives
 
-monitor files add noise and separate measuremnets available at the top of the well
+monitor files add noise and separate measurements available at the top of the well
 
 MPC objective function is MPC_obj.m
 
