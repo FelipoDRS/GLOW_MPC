@@ -6,17 +6,18 @@ README
 Process model is well_disturbance.m
 MPC model is MPC_model.m
 
-*_der files only separate the variables
+*_der files only separate the derivatives
 
-monitor files add noise and separate measuremnts available at the top of the well
+monitor files add noise and separate measuremnets available at the top of the well
 
 MPC objective function is MPC_obj.m
 
 Run first NN_script_MPC.m and later MPC_test_script.m. The first fits the neural network and the second tests the MPC
+
 Data_genCOQ897 generates the data for parameter estimation 
-Data_genCOQ897 gera os dados da estimação de parâmetros
 
 fminsearch3.m is a modification of fminseach found in MatLab´s optimization toolbox
+
 Just replace it for fminsearch and the code will run
 
 O modelo do processo é o well_disturbance.m
